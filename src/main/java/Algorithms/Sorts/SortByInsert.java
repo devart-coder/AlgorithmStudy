@@ -1,6 +1,6 @@
-package Algorithms.Sorts.InserterSort;
+package Algorithms.Sorts;
 
-public class Inserter {
+public class SortByInsert {
 	public static void sort(int[] array) {
 		for(int i=1; i<=array.length; ++i) {
 			for(int j=i-1; j>0; --j)

@@ -1,10 +1,10 @@
-package Algorithms.Sorts.QuckSort;
+package Algorithms.Sorts;
 
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Objects;
 
-public class Quick {
+public class SortByQuick {
 	static int count =1;
 	public static void sort(Integer[] array) {
 		sort(array,0,array.length-1);

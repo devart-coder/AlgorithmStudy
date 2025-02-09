@@ -9,14 +9,14 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
-import Algorithms.Sorts.MergeSort.Merge;
+import Algorithms.Sorts.SortByMerge;
 
 class MergeTest {
 
 	@ParameterizedTest
 	@MethodSource("getArgs")
 	void test(int[] input, int[] expected) {
-		int[] res = Merge.sort(input);
+		int[] res = SortByMerge.sort(input);
 		System.out.printf("I: %s\nO: %s\nE: %s\n",Arrays.toString(input),Arrays.toString(res), Arrays.toString(expected));
 		assertArrayEquals(expected, input);
 	}

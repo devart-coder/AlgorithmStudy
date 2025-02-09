@@ -9,7 +9,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
-import Algorithms.Sorts.QuckSort.Quick;
+import Algorithms.Sorts.SortByQuick;
 
 class QuickTest {
 
@@ -17,7 +17,7 @@ class QuickTest {
 	@MethodSource("getArgs")
 	void test(Integer[] input,Integer[] expected) {
 		var temp = input;
-		Quick.sort(temp);
+		SortByQuick.sort(temp);
 		assertArrayEquals(expected,temp);
 	}
 	public static Stream<Arguments> getArgs(){

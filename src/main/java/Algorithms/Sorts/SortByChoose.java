@@ -1,6 +1,6 @@
-package Algorithms.Sorts.ChooserSort;
+package Algorithms.Sorts;
 
-public class Choose {
+public class SortByChoose {
 	public static void sort(int[] array) {
 		if(array.length<2) 
 			return;

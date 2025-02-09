@@ -1,13 +1,13 @@
-package Algorithms.Grapth;
+package Algorithms.Grapths;
 
 import java.util.ArrayList;
 import java.util.List;
 /* Classic base class for Graph implementation */
-public class Grapth {
+public class Graph {
 	private int V;
 	private int E;
 	private List<List<Integer>> adj;
-	public Grapth(int v) {
+	public Graph(int v) {
 		V=v;//Vertices
 		E=0;//EdgesCounter
 		adj=new ArrayList<>(v);

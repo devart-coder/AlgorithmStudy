@@ -10,15 +10,15 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
-import Algorithms.Sorts.ChooserSort.Choose;
-import Algorithms.Sorts.InserterSort.Inserter;
+import Algorithms.Sorts.SortByChoose;
+import Algorithms.Sorts.SortByInsert;
 
 class InserterTest {
 	@ParameterizedTest
 	@MethodSource("getArgs")
 	void test(int[] data, int[] expected) {
 		int[] input = data;
-		Inserter.sort(input);
+		SortByInsert.sort(input);
 		System.out.println(Arrays.toString(input));
 		assertArrayEquals(expected, data);
 	}

@@ -1,8 +1,8 @@
-package Algorithms.Sorts.MergeSort;
+package Algorithms.Sorts;
 
 import java.util.Arrays;
 
-public class Merge{
+public class SortByMerge{
 	public static int[] sort(int[] array) {
 		int l=0;
 		int r = array.length;
