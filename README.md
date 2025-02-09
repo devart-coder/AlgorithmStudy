@@ -1,2 +1,2 @@
 # AlgorithmStudy
-This project created only for study by algorithms with Java language.
+This project was created for algorithms practice only. All examples writed in Java language.
