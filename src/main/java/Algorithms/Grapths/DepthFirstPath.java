@@ -1,8 +1,8 @@
-package Algorithms.Grapths.Interfaces;
+package Algorithms.Grapths;
 
 import java.util.Stack;
 
-import Algorithms.Grapths.Graph;
+import Algorithms.Grapths.Interfaces.Paths;
 
 public class DepthFirstPath implements Paths{
 	private boolean[] marked;
