@@ -9,8 +9,6 @@ import java.util.stream.Stream;
 
 import javax.management.RuntimeErrorException;
 
-import org.hamcrest.core.CombinableMatcher;
-
 public class MaxPQByHeap <Key extends Comparable<Key>> implements Queue<Key>{
 	private Key[] keys;
 	private int N=0;

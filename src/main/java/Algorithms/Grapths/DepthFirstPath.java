@@ -5,9 +5,9 @@ import java.util.Stack;
 import Algorithms.Grapths.Interfaces.Paths;
 
 public class DepthFirstPath implements Paths{
-	private boolean[] marked;
-	private int[] edgeTo;
-	private final int s;
+	protected boolean[] marked;
+	protected int[] edgeTo;
+	protected final int s;
 	
 	public DepthFirstPath(final Graph g, int s) {
 		marked=new boolean[g.getV()];
